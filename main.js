@@ -1,5 +1,5 @@
 const fullName = prompt ("Ingrese su nombre")
-const age = prompt ("Ingrese su edad")
+const age = parseInt(prompt ("Ingrese su edad"))
 const password = prompt ("ingrese una constraseña minimo 6 caracteres")
 const minimum = 6
 if (fullName === ""){
